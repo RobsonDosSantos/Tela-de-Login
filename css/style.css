@@ -1,0 +1,133 @@
+/* Gerais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #4158d0;
+  border: none;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+body {
+  background: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+
+a,
+label {
+  font-size: 0.8rem;
+}
+
+/* Container Login */
+
+#login-container {
+  background-color: #fff;
+  width: 400px;
+  margin: 0px auto;
+  padding: 20px 30px;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Formulário */
+
+form {
+  margin: 30px 0 0 0;
+}
+
+label,
+input {
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  border-bottom: 2px solid #4158d0;
+  padding: 8px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+input:focus {
+  border-bottom: 2px solid #b551c2;
+  padding-left: 15px;
+  color: #666666;
+}
+
+#esqueceu-senha {
+  text-decoration: none;
+}
+
+#esqueceu-senha:hover {
+  color: #b551c2;
+}
+
+input[type="submit"] {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 30px;
+  color: #fff;
+  background-color: #4158d0;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #8753c7;
+  transition: 0.5s;
+  box-shadow: 0px 0px 8px 2px #4658cf;
+}
+
+/*Social*/
+
+#social i {
+  border: 10px solid #08558b;
+  border-radius: 50%;
+  color: #fff;
+  margin: 10px 5px;
+  cursor: pointer;
+  font-size: 25px;
+  transition: 0.4s ease-in-out;
+}
+
+#social i:hover {
+  transform: scale(1.4);
+  transition: 0.4s;
+  box-shadow: 0 0 0 1px #4158d0;
+}
+
+.fa-facebook,
+.fa-instagram,
+.fa-github-alt {
+  background-color: #08558b;
+}
+
+#social a {
+  margin: 50px;
+  text-decoration: none;
+}
+
+#social a:hover {
+  color: #b551c2;
+}
+
+#social p {
+  margin: 5px 0 10px 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #08558b;
+}
